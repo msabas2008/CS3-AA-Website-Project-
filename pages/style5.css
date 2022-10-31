@@ -1,0 +1,144 @@
+body > div.nav {
+	background-color: #7C9AA6;
+	background-attachment: fixed;
+}
+
+div img.logo {
+	position: relative;
+	left: 70px;
+}
+
+div img.sidelogo {
+	position: absolute;
+	right: 45px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div a.navbar {
+	position: relative;
+	top: 43.5px;
+	right: 90px;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 10px #022634;
+	font-weight:bold;
+	font-size: 17px;
+	text-decoration: none; 
+	text-align: center;
+	font-family: Helvetica;
+	color: white;
+	float: right;
+	padding: 43px;
+	margin: 10px;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	display: flex;
+	transition: 0.10s;
+	z-index: 1;
+}
+
+div a.navbar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #fff;
+  border-bottom: 4px solid #fff;
+  transform: scaleY(2);
+  opacity: 0;
+  transition: 0.3s;
+}
+div a.navbar:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #51768C;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+div a.navbar:hover {
+  color: #fff;
+}
+div a.navbar:hover:before {
+  transform: scaleY(1);
+  opacity: 1;
+}
+div a.navbar:hover:after {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+body{
+  background-color: #4E8CE3;
+}
+
+#title {
+  color: white;
+  font-family: Brush Script MT;
+  font-weight: lighter;
+  font-size: 75px;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 10px #022634;
+  position: absolute;
+  left: 530px;
+  top: 130px;
+}
+
+.adventure {
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  position: relative;
+  left: 80px;
+  top: 110px;
+}
+
+.adventure2 {
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  position: relative;
+  left: 80px;
+  top: 130px;
+}
+
+.adventure3 {
+	color: white;
+	font-family: Helvetica;
+	font-weight: bold;
+	position: relative;
+    left: 660px;
+    bottom: 343px;
+}
+
+.adventure4 {
+	color: white;
+	font-family: Helvetica;
+	font-weight: bold;
+	position: absolute;
+	top: 470px;
+	left: 660px;
+}
+
+.adventure5 {
+	color: white;
+	font-family: Helvetica;
+	font-weight: bold;
+	position: absolute;
+	bottom: 175px;
+	left: 470px;
+}

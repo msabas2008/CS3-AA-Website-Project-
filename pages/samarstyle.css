@@ -1,0 +1,386 @@
+body > div.nav {
+	background-color: #7C9AA6;
+	background-attachment: fixed;
+}
+
+div img.logo {
+	position: relative;
+	left: 70px;
+}
+
+div img.sidelogo {
+	position: absolute;
+	right: 45px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div a.navbar {
+	position: relative;
+	top: 43.5px;
+	right: 90px;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 10px #022634;
+	font-weight:bold;
+	font-size: 17px;
+	text-decoration: none; 
+	text-align: center;
+	font-family: Helvetica;
+	color: white;
+	float: right;
+	padding: 43px;
+	margin: 10px;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	display: flex;
+	transition: 0.10s;
+	z-index: 1;
+}
+
+div a.navbar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #fff;
+  border-bottom: 4px solid #fff;
+  transform: scaleY(2);
+  opacity: 0;
+  transition: 0.3s;
+}
+div a.navbar:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #51768C;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+div a.navbar:hover {
+  color: #fff;
+}
+div a.navbar:hover:before {
+  transform: scaleY(1);
+  opacity: 1;
+}
+div a.navbar:hover:after {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.backg {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e4/Kalanggaman_Island.jpg");
+	background-size: cover;
+	height:550px;
+	background-repeat: no-repeat;
+}
+
+.backg #title {
+	color: white;
+	text-shadow: 5px 5px 5px #235078;
+	font-family: Optima;
+	font-weight: bold;
+	font-size: 70px;
+	letter-spacing: 5px;
+	position: absolute;
+	top: 330px;
+	left: 450px;
+}
+
+.info {
+	background-color: #022634;
+}
+.info #title {
+	position: relative;
+	top: 30px;
+	color: white;
+	font-family: Consolas;
+	text-shadow: 5px 5px 5px #5F6952;
+	font-size: 35px;
+	text-align: center;
+}
+
+.info #label {
+	position: relative;
+	bottom: 20px;
+	color: white;
+	font-size: 18px;
+	font-family: Corbel;
+	margin: 87px;
+	text-align: center;
+}
+
+.info #title2 {
+	position: relative;
+	text-shadow: 5px 5px 5px #5F6952;
+	bottom: 40px;
+	font-size: 45px;
+	color: white;
+	text-align: center;
+}	
+
+.info #label2 {
+	position: relative;
+	bottom: 90px;
+	color: white;
+	font-size: 18px;
+	font-family: Corbel;
+	margin: 87px;
+	text-align: center;
+}
+
+img#statue {
+	position: relative;
+	bottom: 130px;
+	left: 410px;
+}
+
+.info #title3 {
+	position: relative;
+	bottom: 70px;
+	color: white;
+	font-family: Consolas;
+	text-shadow: 5px 5px 5px #5F6952;
+	font-size: 50px;
+	text-align: center;
+}
+
+.info #label3 {
+	position: relative;
+	bottom: 110px;
+	color: white;
+	font-size: 18px;
+	font-family: Corbel;
+	margin: 87px;
+	text-align: center;
+}
+
+img#food {
+	position: relative;
+	bottom: 130px;
+	left: 250px;
+}
+
+img#festival {
+	position: relative;
+	bottom: 130px;
+	left: 120px;
+}
+
+.info #title4 {
+	position: relative;
+	bottom: 70px;
+	color: white;
+	font-family: "Ink Free";
+	text-shadow: 5px 5px 5px #5F6952;
+	font-size: 50px;
+	text-align: center;
+}
+
+img#bridge {
+	position: relative;
+	left: 350px;
+	bottom: 30px;
+}
+
+.info #thing1 {
+	position: relative;
+	left: 165px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	border-radius: 25px;
+	background: #8FAEB8;
+	padding: 5px; 
+	width: 200px;
+	height: auto;  
+}
+
+.info #label4 {
+	position: relative;
+	bottom: 40px;
+	left: 80px;
+	color: white;
+	font-size: 18px;
+	font-family: Corbel;
+	margin: 87px;
+	font-weight: bold;
+}
+
+.info #thing2 {
+	position: relative;
+	bottom: 95px;
+	left: 165px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	border-radius: 25px;
+	background: #8FAEB8;
+	padding: 5px; 
+	width: 250px;
+	height: auto;  
+}
+
+.info #label5 {
+	position: relative;
+	bottom: 140px;
+	left: 80px;
+	color: white;
+	font-size: 18px;
+	font-family: Corbel;
+	margin: 87px;
+	font-weight: bold;
+}
+
+.info #thing3 {
+	position: relative;
+	bottom: 175px;
+	left: 165px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	border-radius: 25px;
+	background: #8FAEB8;
+	padding: 5px; 
+	width: 350px;
+	height: auto;  
+}
+
+.info #label6 {
+	position: relative;
+	bottom: 220px;
+	left: 80px;
+	color: white;
+	font-size: 18px;
+	font-family: Corbel;
+	margin: 87px;
+	font-weight: bold;
+}
+
+img#park {
+	position: relative;
+	bottom: 270px;
+	left: 400px;
+}
+
+.info #thing4 {
+	position: relative;
+	bottom: 225px;
+	left: 165px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	border-radius: 25px;
+	background: #8FAEB8;
+	padding: 5px; 
+	width: 180px;
+	height: auto;  
+}
+
+.info #label7 {
+	position: relative;
+	bottom: 270px;
+	left: 80px;
+	color: white;
+	font-size: 18px;
+	font-family: Corbel;
+	margin: 87px;
+	font-weight: bold;
+}
+
+img#surf {
+	position: relative;
+	bottom: 310px;
+	left: 400px;
+}
+
+.info #thing5 {
+	position: relative;
+	bottom: 265px;
+	left: 165px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	border-radius: 25px;
+	background: #8FAEB8;
+	padding: 5px; 
+	width: 180px;
+	height: auto;  
+}
+
+.info #label8 {
+	position: relative;
+	bottom: 300px;
+	left: 80px;
+	color: white;
+	font-size: 18px;
+	font-family: Corbel;
+	margin: 87px;
+	font-weight: bold;
+}
+
+img#dive {
+	position: relative;
+	bottom: 330px;
+	left: 380px;
+}
+
+img#sea {
+	position: relative;
+	left: 580px;
+	bottom: 120px;
+	margin: 0px;
+}
+
+.info #title5 {
+    position: relative;
+	bottom: 250px;
+	color: white;
+	font-family: "Brushstroke";
+	text-shadow: 5px 5px 5px #5F6952;
+	font-size: 50px;
+	text-align: center;
+	font-style: italic;
+}
+
+.info #label9 {
+	position: relative;
+	bottom: 200px;
+	color: white;
+	font-family: Copperplate;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 25px;
+	margin-right: 10px;
+	margin-left:10px;
+	text-align: center;
+	text-shadow: 5px 5px 5px #007A85;
+}
+
+
+
+
